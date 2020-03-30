@@ -1,7 +1,7 @@
 # Intro to TDD, RSpec, and Learn
 
 ## Objectives
-
+ 
 * Define the purpose of a code test.
 * Read the RSpec tests.
 * Run tests via the `learn` command.
