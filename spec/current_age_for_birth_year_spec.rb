@@ -7,3 +7,7 @@ describe "current_age_for_birth_year method" do
     expect(age_of_person).to eq(19)
   end
 end
+ def "current_age_for_birth_year(1984)"
+   age_of_person = current_age_for_birth_year
+   2018 - birth_year
+  end
