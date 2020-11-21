@@ -1,10 +1,9 @@
-def current_age_for_birth_year(1984
+require_relative '../current_age_for_birth_year.rb'
 
-    puts 'birth_year'
-  birth_year = 1984
-  puts 'current_year'
-  current_year= 2003
+describe "current_age_for_birth_year method" do
+  it "returns the age of a person based on the year of birth" do
+    age_of_person = current_age_for_birth_year(1984)
 
-
-end
+    expect(age_of_person).to eq(19)
+  end
 end
